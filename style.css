@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-image: url(img/fondo.png);
+  font-family: "Itim", cursive;
+  font-size: 100%;
+}
+
+.main {
+  width: 100%;
+  height: 500px;
+  border: 10px solid grey;
+  padding: 2em 2em;
+}
+
+.header {
+  display: flex;
+  color: blanchedalmond;
+  background-color: teal;
+  margin: 0 5rem;
+  font-size: 2em;
+}
+
+.lista-anime {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+
+.contenedor {
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo {
+  font-size: 1rem;
+  width: 20rem;
+  border-radius: 0.8rem;
+  position: center;
+  top: 0rem;
+  margin-bottom: 15px;
+}
+
+.titulo > h2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.anime {
+  height: 25rem;
+  width: 20rem;
+  font-size: 1em;
+  border-radius: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1.2rem;
+}
+
+img {
+  width: 10em;
+  height: 10rem;
+  border-radius: 2em;
+  padding: 0.5em;
+}
+
+#anime-1 {
+  background-color: #eccec7;
+  color: black;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 1rem 2;
+}
+
+#anime-2 {
+  background-color: #eccec7;
+  color: black;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 1rem 2;
+}
+
+#anime-3 {
+  background-color: #eccec7;
+  color: black;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 1rem 2;
+}
+
+#anime-4 {
+  background-color: #eccec7;
+  color: black;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 1rem 2;
+}
+
+/*colores de fondo*/
+#demon {
+  background-color: #c9bdba;
+}
+
+#parasite {
+  background-color: #c9bdba;
+}
+
+#darling {
+  background-color: #c9bdba;
+}
+
+#punch {
+  background-color: #c9bdba;
+}
