@@ -18,25 +18,42 @@ html {
 }
 
 .header {
-  display: flex;
-  color: blanchedalmond;
-  background-color: pink;
-  margin: 0 4rem;
+  color: black;
+  font-weight: bold;
+  background-color: paleturquoise;
+  margin: 1rem 3rem;
   font-size: 1em;
+  text-align: center;
+  border-radius: 1em;
+}
+
+.main-nav {
+  background-color: purple;
+  position: relative;
+  top: 10px;
+  display: block;
+}
+
+.main-nav__item {
+  display: inline-block;
+  padding: 1em;
+}
+
+.main-nav a:hover {
+  color: pink;
 }
 
 .lista-anime {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding: 1rem;
   flex-wrap: wrap;
 }
 
 .contenedor {
   text-align: center;
-  flex-direction: column;
-  align-items: center;
+  align-items: justify;
 }
 
 .titulo {
