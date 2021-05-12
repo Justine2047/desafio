@@ -20,9 +20,9 @@ html {
 .header {
   display: flex;
   color: blanchedalmond;
-  background-color: teal;
-  margin: 0 5rem;
-  font-size: 2em;
+  background-color: pink;
+  margin: 0 4rem;
+  font-size: 1em;
 }
 
 .lista-anime {
@@ -45,7 +45,7 @@ html {
   border-radius: 0.8rem;
   position: center;
   top: 0rem;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .titulo > h2 {
