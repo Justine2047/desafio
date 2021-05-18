@@ -18,51 +18,34 @@ html {
 }
 
 .header {
-  color: black;
-  font-weight: bold;
-  background-color: paleturquoise;
-  margin: 1rem 3rem;
-  font-size: 1em;
   text-align: center;
-  border-radius: 1em;
-}
-
-.main-nav {
-  background-color: purple;
-  position: relative;
-  top: 10px;
-  display: block;
-}
-
-.main-nav__item {
-  display: inline-block;
-  padding: 1em;
-}
-
-.main-nav a:hover {
-  color: pink;
+  color: blanchedalmond;
+  background-color: teal;
+  margin: 0 20rem;
+  font-size: 1em;
 }
 
 .lista-anime {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding: 1rem;
   flex-wrap: wrap;
 }
 
 .contenedor {
   text-align: center;
-  align-items: justify;
+  flex-direction: column;
+  align-items: center;
 }
 
 .titulo {
   font-size: 1rem;
   width: 20rem;
   border-radius: 0.8rem;
-  position: center;
-  top: 0rem;
-  margin-bottom: 10px;
+  text-align: center;
+  top: 1rem;
+  margin-bottom: 15px;
 }
 
 .titulo > h2 {
@@ -91,7 +74,7 @@ img {
 }
 
 #anime-1 {
-  background-color: #eccec7;
+  background-color: #ae6bf2;
   color: black;
   justify-content: center;
   font-size: 1rem;
@@ -99,7 +82,7 @@ img {
 }
 
 #anime-2 {
-  background-color: #eccec7;
+  background-color: #836d99;
   color: black;
   justify-content: center;
   font-size: 1rem;
@@ -107,7 +90,7 @@ img {
 }
 
 #anime-3 {
-  background-color: #eccec7;
+  background-color: #702c5f;
   color: black;
   justify-content: center;
   font-size: 1rem;
@@ -115,7 +98,22 @@ img {
 }
 
 #anime-4 {
-  background-color: #eccec7;
+  background-color: #783b51;
+  color: black;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 1rem 2;
+}
+#anime-5 {
+  background-color: #b46ad4;
+  color: black;
+  justify-content: center;
+  font-size: 1rem;
+  padding: 1rem 2;
+}
+
+#anime-6 {
+  background-color: #6d7bc2;
   color: black;
   justify-content: center;
   font-size: 1rem;
@@ -136,5 +134,17 @@ img {
 }
 
 #punch {
+  background-color: #c9bdba;
+}
+
+#elf {
+  background-color: #c9bdba;
+}
+
+#elfen {
+  background-color: #c9bdba;
+}
+
+#sailor {
   background-color: #c9bdba;
 }
